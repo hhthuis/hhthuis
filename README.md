@@ -1,40 +1,86 @@
-# Hi, I'm Lê Hữu Hoàng
+<h1 align="center">Hi, I'm Lê Hữu Hoàng 👋</h1>
 
-Junior Penetration Tester focused on Web and API Security.
+<p align="center">
+  <strong>Cybersecurity Student @ UIT · Web Security · Pentesting</strong>
+</p>
 
-I am particularly interested in HTTP protocol inconsistencies,
-reverse-proxy architectures, and HTTP Request Smuggling/Desynchronization.
+<p align="center">
+  <a href="mailto:lehoang.190206@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-58A6FF?style=flat-square&logo=gmail&logoColor=white">
+  </a>
+  <a href="https://github.com/hhthuis">
+    <img src="https://img.shields.io/badge/GitHub-hhthuis-181717?style=flat-square&logo=github">
+  </a>
+</p>
 
-## Selected Projects
+---
 
-### HTTP Desynchronization Lab
-A reproducible lab for studying HTTP request boundary inconsistencies
-between front-end proxies and back-end servers.
+## About Me
 
-- Persistent HTTP connections and request boundaries
-- Content-Length and Transfer-Encoding parsing
-- CL.TE and TE.CL desynchronization
-- Reverse proxy and backend parser discrepancies
-- Docker-based reproducible environment
+I'm a Cybersecurity student in the Honors Program at the University of Information Technology — VNU-HCM.
 
-[View project →](LINK_PROJECT)
+My current focus is **Web Application Security and Penetration Testing**, especially HTTP security, request parsing discrepancies, vulnerability validation, and reproducible security testing.
 
-## Security Skills
+* 🔐 Interested in Web Pentesting and HTTP Security
+* 🧪 Building reproducible security labs with Docker and virtual machines
+* 🛠️ Working with Python, raw TCP, Burp Suite and Wireshark
+* 📚 Practicing through CTFs, SEED Labs and web security wargames
+* 🎯 Looking for opportunities to learn professional penetration-testing workflows
 
-- Web and API penetration testing
-- Authentication and access-control testing
-- HTTP request smuggling/desynchronization
-- Burp Suite, Nmap, Wireshark
-- Linux, Docker and Python
-- Vulnerability reporting and remediation guidance
+## Featured Projects
+
+### [HTTP Desync Differential Fuzzer](https://github.com/TrinhQuangMinh123/NT140_http_desync_lab)
+
+An HTTP/1.1 differential-testing framework inspired by the HDHunter research paper.
+
+* Sends identical mutated HTTP payloads through reverse-proxy and backend-direct paths
+* Uses raw TCP to preserve malformed and ambiguous request bytes
+* Supports sequence-, message- and byte-level mutation strategies
+* Compares observed responses and parser-related states to identify discrepancies
+* Provides Docker environments for NGINX, HAProxy, Apache Traffic Server, Gunicorn and Tomcat
+* Treats discrepancies as candidates requiring replay and manual validation, not confirmed vulnerabilities
+
+`Python` `Docker` `HTTP/1.1` `Raw TCP` `Differential Testing`
+
+### AutoPentester Benchmark
+
+A reproducible benchmark for evaluating whether an AI-assisted pentesting system actually exploits vulnerabilities.
+
+* Collects and analyzes web-related CVEs
+* Recreates vulnerable environments with Docker Compose
+* Prepares reference exploits and ground truth
+* Uses independent oracles to verify real security impact
+* Records both successful and failed reproduction attempts to reduce false positives
+
+`Python` `Docker Compose` `CVE Research` `Security Evaluation`
+
+### [Natas Web Security Write-ups](https://github.com/hhthuis/Natas)
+
+Notes and write-ups from solving the OverTheWire Natas web security wargame, focusing on vulnerability mechanisms and exploitation reasoning.
+
+`Web Security` `PHP` `HTTP` `Wargame`
+
+## Technical Skills
+
+| Area              | Technologies                                              |
+| ----------------- | --------------------------------------------------------- |
+| Web Security      | Burp Suite, OWASP vulnerabilities, HTTP Request Smuggling |
+| Network Analysis  | Wireshark, TCP/IP, HTTP/1.1, raw sockets                  |
+| Programming       | Python, C++, SQL, socket programming                      |
+| Systems & Labs    | Linux, Windows, Docker, Proxmox VE                        |
+| Security Practice | SEED Labs, Natas, Web & Crypto CTFs                       |
 
 ## Currently Learning
 
-- Advanced Web Security
-- HTTP/1.1 parsing discrepancies
-- Pentest methodology and reporting
+* Web penetration-testing methodology
+* Authentication, authorization and session security
+* API security and business-logic vulnerabilities
+* HTTP request parsing and desynchronization
+* Vulnerability reporting and remediation
 
 ## Contact
 
-- Email: your-email
-- LinkedIn: your-linkedin
+* Email: **[lehoang.190206@gmail.com](mailto:lehoang.190206@gmail.com)**
+* GitHub: **[@hhthuis](https://github.com/hhthuis)**
+
+> I enjoy understanding why systems behave differently — and turning those differences into reproducible security findings.
