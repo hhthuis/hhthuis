@@ -54,9 +54,16 @@ A reproducible benchmark for evaluating whether an AI-assisted pentesting system
 
 `Python` `Docker Compose` `CVE Research` `Security Evaluation`
 
-### [Natas Web Security Write-ups](https://github.com/hhthuis/Natas)
+### SEED Labs — Network Security
 
-Notes and write-ups from solving the OverTheWire Natas web security wargame, focusing on vulnerability mechanisms and exploitation reasoning.
+Hands-on security labs focused on understanding network attacks, protocol behavior, and defensive mechanisms in isolated environments.
+
+* Built controlled environments for practicing network attacks safely
+* Analyzed packets and protocol behavior with Wireshark
+* Studied both exploitation techniques and corresponding mitigations
+* Documented experiment setup, observations, results and security lessons
+
+`Network Security` `TCP/IP` `Wireshark` `Linux` `Attack & Defense`
 
 `Web Security` `PHP` `HTTP` `Wargame`
 
