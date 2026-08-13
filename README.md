@@ -1,16 +1,40 @@
-## Hi there 👋
+# Hi, I'm Lê Hữu Hoàng
 
-<!--
-**hhthuis/hhthuis** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Junior Penetration Tester focused on Web and API Security.
 
-Here are some ideas to get you started:
+I am particularly interested in HTTP protocol inconsistencies,
+reverse-proxy architectures, and HTTP Request Smuggling/Desynchronization.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Selected Projects
+
+### HTTP Desynchronization Lab
+A reproducible lab for studying HTTP request boundary inconsistencies
+between front-end proxies and back-end servers.
+
+- Persistent HTTP connections and request boundaries
+- Content-Length and Transfer-Encoding parsing
+- CL.TE and TE.CL desynchronization
+- Reverse proxy and backend parser discrepancies
+- Docker-based reproducible environment
+
+[View project →](LINK_PROJECT)
+
+## Security Skills
+
+- Web and API penetration testing
+- Authentication and access-control testing
+- HTTP request smuggling/desynchronization
+- Burp Suite, Nmap, Wireshark
+- Linux, Docker and Python
+- Vulnerability reporting and remediation guidance
+
+## Currently Learning
+
+- Advanced Web Security
+- HTTP/1.1 parsing discrepancies
+- Pentest methodology and reporting
+
+## Contact
+
+- Email: your-email
+- LinkedIn: your-linkedin
